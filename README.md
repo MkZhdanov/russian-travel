@@ -4,4 +4,4 @@
 
 Это первая проектная работа блока "Работа с макетом, адаптивная вёрстка, интерактивные элементы" посвященная адаптивной верстке и grid.
 
-[ссылка на GitHub проекта](https://github.com/yandex-praktikum/russian-travel)
+[ссылка на GitHub проекта](https://mkzhdanov.github.io/russian-travel/)
