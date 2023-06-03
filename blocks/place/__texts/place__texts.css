@@ -1,0 +1,30 @@
+.place__texts {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .place__texts {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .place__texts {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 1.625;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .place__texts {
+    width: 288px;
+    margin: 0 auto 50px;
+  }
+}
