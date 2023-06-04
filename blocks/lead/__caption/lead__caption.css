@@ -10,26 +10,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-.lead__caption {
-  width: 928px;
-}
+  .lead__caption {
+    width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
-.lead__caption {
-  margin-left: 24px;
-  width: 320px;
-  align-self: flex-start;
-}
+  .lead__caption {
+    margin-left: 24px;
+    width: max-content;
+    align-self: flex-start;
+  }
 }
 
 @media screen and (max-width: 320px) {
-
-.lead__caption {
-  margin-left: 16px;
-  width: 50%;
-  align-self: flex-start;
-}
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

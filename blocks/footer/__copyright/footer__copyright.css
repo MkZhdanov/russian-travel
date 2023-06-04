@@ -2,15 +2,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  margin-left: auto;
-  align-self: center;
+  margin: 0;
 }
 
-@media screen and (max-width: 320px) {
-
-  .footer__copyright {
-    line-height: 1;
-    margin: 0;
-    align-self: normal;
-  }
-}

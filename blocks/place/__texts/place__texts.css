@@ -6,14 +6,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   .place__texts {
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
-
   .place__texts {
     max-width: 352px;
     font-size: 16px;
@@ -22,7 +20,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .place__texts {
     width: 288px;
     margin: 0 auto 50px;

@@ -1,6 +1,5 @@
 .header {
-  width: 92.5%;
-  height: 52px;
+  max-width: 92.5%;
   margin: 0 48px;
   padding-top: 28px;
   display: flex;
@@ -8,20 +7,23 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 1024px) {
   .header {
-    width: 93.75%;
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 93.75%;
     margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-
   .header {
     margin-left: 16px;
     padding-top: 16px;
-    width: 90%;
-    height: 42px;
+    max-width: 90%;
   }
 }
