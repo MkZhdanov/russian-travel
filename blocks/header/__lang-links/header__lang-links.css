@@ -1,7 +1,7 @@
 .header__lang-links {
   display: grid;
-  grid-template-rows: none;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: max-content;
+  grid-auto-flow: column;
   gap: 18px;
   padding: 0 0 6px;
 }

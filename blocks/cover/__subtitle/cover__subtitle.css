@@ -4,7 +4,7 @@
   line-height: 1.22;
   color: white;
   text-align: center;
-  width: 46.875%;
+  max-width: 46.875%;
   margin: 32px 0 0 0;
   z-index: 2;
   max-width: 360px;
